@@ -1,0 +1,57 @@
+
+/* Global App Container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #141414; /* Netflix dark background */
+  color: white;
+  font-family: Arial, sans-serif; /* Netflix uses a sans-serif font */
+}
+
+/* Main Layout */
+.main-layout {
+  display: flex;
+  flex: 1;
+}
+
+/* Content Section */
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #181818; /* Netflix-like darker background for content */
+  color: white;
+}
+
+/* Buttons */
+button {
+  background-color: #e50914; /* Netflix red */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #f40612; /* Slightly lighter red on hover */
+}
+
+/* Links */
+a {
+  color: #e50914;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f40612;
+}
+
+/* Footer */
+.footer {
+  background-color: #141414;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}

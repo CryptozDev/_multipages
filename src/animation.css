@@ -1,0 +1,45 @@
+
+#container {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#field {
+    background-color: #ff0000; /* Red background for the field */
+    position: relative;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+}
+
+#ball {
+    background-color: #000000; /* Black ball */
+    border-radius: 50%;
+    position: absolute;
+}
+
+.controls {
+    margin-top: 20px;
+}
+.run-btn button {
+    background-color: #76BC43; /* Red button background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+button:active {
+    background-color: #990000;
+}
+.btn-group {
+    margin-top: 10px;
+}
